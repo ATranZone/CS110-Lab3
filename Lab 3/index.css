@@ -1,0 +1,321 @@
+/* Feel free to edit CSS of body if you'd like. We provide you the light gray background color and font family in the body styling */
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin: 0;
+  background-color: #e6ecf0;
+}
+
+/* TODO: Create CSS for your Twitter Mockup */
+/* # is for id and . is for classes */
+
+a{
+  text-decoration:none;
+  color:grey;
+  display:none; /*hiding the jump button*/
+}
+a:hover{
+  color:#1DA1F2;
+}
+nav {
+  background-color: white;
+  height:60px;
+  width:100%;
+  position:fixed;
+  top:0;
+  left:0;
+  display:flex;
+  list-style:none;
+}
+
+nav li {
+  margin:15px;
+
+}
+#header {
+ text-align: center;
+ position:fixed;
+ top:0;
+ left:0;
+ z-index:100;
+ color: grey;
+ display: flex;
+}
+
+.textHover:hover{
+  color:#1DA1F2;
+  text-decoration-color:#1DA1F2;
+  text-decoration: underline;
+  cursor: pointer; /*when hovering over element, turns mouse into pointing finger*/
+}
+
+#twitterlogo {
+  position:fixed; /* fixed on the page at the given location*/
+  left:50%;
+  width:50px;
+  top:1%; /*distance from top */
+}
+
+#TweetButton {
+  position:fixed;
+  right:0%;
+  font-weight: bold;
+  color: White;
+  border-style: solid;
+  border-radius: 60px 60px;
+  width: 90px;
+  text-align:center;
+  background-color: #1DA1F2;
+  padding: 3px;
+}
+
+#wrapper {
+  display:flex;
+  max-width: 1190px;
+  margin: 56px auto;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#content-left {
+  height: 260px;
+  width: auto;
+  background-color: white;
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 10px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+#cover-picture{
+  width:auto;
+  background-color: black;
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  z-index:2;
+}
+
+#accountBanner{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#profileDetails{ /*profile picture, username, @*/
+  display:flex;
+  flex-direction: row;
+  z-index: 3;
+  margin-top: -20px;
+  margin-left: 40px;
+}
+
+#accountPFP{
+  border-radius: 50%;
+  width:80px;
+  height:80px;
+  margin-bottom: 10px;
+  border-color: white;
+  border-width: 3px;
+  border-style: solid;
+}
+
+#profile-info{ /*the username and @*/
+  margin-top: 30px;
+  margin-left: 20px;
+  display:flex;
+  flex-direction: column;
+}
+
+#userBoldUnderline{
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#userprofileAT{
+  color: grey;
+}
+
+#profile-stats{
+  display:flex;
+  flex-direction: row;
+  justify-content:space-around;
+  font-size: large;
+}
+
+#tweetNum{
+  display:flex;
+  flex-direction: column;
+}
+
+.statName{
+  color: grey;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.statNumber{
+  color:#1DA1F2;
+  font-weight:bold;
+}
+
+#content-center {
+  height:auto;
+  width: 2500px;
+  background-color: white;
+  display:flex;
+  flex-direction: column;
+  margin: 10px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+}
+
+#content-right {
+  height: 300px;
+  width: 600px;
+  background-color: white;
+  margin: 10px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  display:flex;
+  flex-direction: column;
+}
+
+#WTF{ /*WHO TO FOLLOW*/
+  font-weight: bold;
+  font-size: 23px;
+  margin: 10px;
+}
+
+.linguini{
+  float: left;
+  display: flex;
+  flex-direction: row;
+  z-index: 1;
+  width: 300px;
+}
+
+#lingPFP{
+  margin-top: 20px;
+  border-radius: 50%;
+  width: 70px;
+  margin-left: 5%;
+}
+
+#ling1{
+  margin-top: 20px;
+  margin-left: 5%;
+  font-weight: bold;
+}
+
+#ling2{
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+.FollowButton{
+  font-weight: bold;
+  color: #1DA1F2;
+  border-style: solid;
+  border-radius: 60px 60px;
+  width: 120px;
+  text-align:center;
+  margin-left: 100px;
+  z-index: 2;
+  margin-top: -40px;
+  padding: 5px;
+}
+
+.divide1{
+  border-left: 270px solid #e6ecf0;
+  margin-top: 25px;
+}
+
+.TA{
+  float: left;
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+}
+#TAPFP{
+  margin-top: 20px;
+  border-radius: 50%;
+  width: 70px;
+  margin-left: 5%;
+}
+#TA1{
+  margin-top: 20px;
+  margin-left: 5%;
+  font-weight: bold;
+}
+
+#TA2{
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+.remyT{
+  border-radius: 50%;
+  width:48px;
+  height:48px;
+}
+
+.tweet{
+  font-weight:100;
+  display:flex;
+  flex-direction: row;
+  border-bottom: 1px solid #e6ecf0;
+  min-height: 51px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.text{
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.tweetUser{
+  font-weight: bold;
+}
+.tweetAT{
+  font-weight: normal;
+  color: grey;
+}
+
+/* the usernames and the tweet itself */
+.tweetContents{ 
+  display:flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+@media (max-width:1200px){ /*when the width of the browser is 1200px, content-right should disappear */
+  #content-right{
+    display:none;
+  }
+}
+
+.tweetDate{
+  font-weight: 0;
+  display:flex;
+}
+#topcenter{
+  display:flex;
+  flex-direction:row;
+}
+#searchFilter{
+  text-align: center;
+  display:flex;
+  width:380px;
+  height:30px;
+  margin:5px;
+}
+#feedRefresh{
+  margin-bottom:10px;
+  font-size: 14px;
+  align-self: end;
+  display:flex;
+  margin-right: 5px;
+  margin-left:5px;
+}
