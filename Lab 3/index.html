@@ -9,19 +9,15 @@
   <body role="Contents of the website's body">
     <!-- TODO: Create HTML elements for Twitter mockup inside body -->
     <nav id="header" role="Navigation Bar">
+      <img id="twitterlogo" src="images/twitter-logo.png" alt="Twitter Logo">
       <li class="textHover"><b>Home</b></li>
       <li class="textHover"><b>Moments</b></li>
       <li class="textHover"><b>Notifications</b></li>
       <li class="textHover"><b>Messages</b></li>
-      <li class="textHover"><b><a href="#content-center">Jump to user's Tweets</a></b></li>
-      <img id="twitterlogo" src="images/twitter-logo.png" alt="Twitter Logo">
-
       <li id="TweetButton">Tweet</li>
-
     </nav>
 
     <div id="wrapper">
-
         <div id="content-left" role="Profile Details">
             <div id="cover-picture">
               <div id="banner">
@@ -76,19 +72,11 @@
         </div>
 
         <div id="content-center" role="User's Tweets">
-          <div id="topcenter"><input type="text" id="searchFilter" placeholder="Filter by keyword">
+          <div id="topcenter">
             <div id="feedRefresh">
-              Pause Feed<input id="checkBox" type="checkbox">
-            </div></div>
-          
-
-            <!-- <div class="tweet">
-              <img class="remyT" src="images/ratatouille.jpg" alt="Remy Profile Picture">
-              <div class="tweetContents">
-                <div class="tweetUser">Remy <span class="tweetAT">@remy</span></div>
-                <div class="text">I'm taking a class called CS 110 and the TAs are all so cool!</div>
-              </div>
-            </div> -->
+              <span>Pause Feed<input id="checkBox" type="checkbox"></span>
+            </div>
+          </div>
         </div>
 
         <div id="content-right" role="Who to follow based on this user">
@@ -100,7 +88,6 @@
                 <div id="ling2">@linguini</div> 
             </div>
             <div class="FollowButton">Follow</div>   
-            <!-- <div class="divider1"></div> -->
             <hr class="divide1">
             <div class="TA">
               <img id="TAPFP" src="images/ratatouille.jpg" alt="CS110 TA Profile">

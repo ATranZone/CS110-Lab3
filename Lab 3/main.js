@@ -106,19 +106,5 @@ $(document).ready(function(){    //this template provided to me from the TA
         
         return tempArr;
     }
-
-    function removeDuplicates(duplicatesDataArr) {
-        // For all of new tweets
-        // Check the array of all previous tweets for any duplicates
-        // Remove duplicates
-        // If not a duplicate, add it to list of all previous tweets
-    }
-
-    function searchArray(dataArr, value) {
-        // Go through each tweet, and check if there is a matching value in the tweet
-        // Return array of all matching tweets
-
-    }
-
     
 });

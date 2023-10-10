@@ -13,32 +13,26 @@ a{
   color:grey;
   display:none; /*hiding the jump button*/
 }
+
 a:hover{
   color:#1DA1F2;
 }
+
 nav {
-  background-color: white;
-  height:60px;
-  width:100%;
-  position:fixed;
-  top:0;
-  left:0;
-  display:flex;
   list-style:none;
+  background-color: white;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  height:70px;
 }
 
 nav li {
   margin:15px;
-
 }
+
 #header {
- text-align: center;
- position:fixed;
- top:0;
- left:0;
- z-index:100;
- color: grey;
- display: flex;
+  color: grey;
 }
 
 .textHover:hover{
@@ -49,29 +43,25 @@ nav li {
 }
 
 #twitterlogo {
-  position:fixed; /* fixed on the page at the given location*/
-  left:50%;
   width:50px;
-  top:1%; /*distance from top */
+  margin-left:20px;
 }
 
 #TweetButton {
-  position:fixed;
-  right:0%;
-  font-weight: bold;
-  color: White;
-  border-style: solid;
-  border-radius: 60px 60px;
-  width: 90px;
-  text-align:center;
+  margin-left:auto;
   background-color: #1DA1F2;
-  padding: 3px;
+  color:white;
+  width:70px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 2px;
 }
 
 #wrapper {
   display:flex;
   max-width: 1190px;
   margin: 56px auto;
+  margin-top:20px;
   display:flex;
   flex-direction: row;
   justify-content: center;
